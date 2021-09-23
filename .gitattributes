@@ -1,0 +1,17 @@
+*.xml text eol=lf
+*.txt text eol=lf
+
+# Unity
+*.asset text eol=lf
+LightingData.asset binary eol=auto
+*NavMesh* binary eol=auto
+*.cubemap text eol=lf
+*.mat text eol=lf
+*.prefab text eol=lf
+*.unity text eol=lf
+*.meta text eol=lf
+*.spriteatlas text eol=lf
+*.manifest text eol=lf
+GvhProjectSettings.xml text eol=crlf
+FirebaseCppAnalytics.so filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
